@@ -20,3 +20,8 @@ exports.add=(a,b)=>a+b;
 //ek tareeke ka arrow function hai
 
 module.exports ek hi bar use kar sakte hai 
+
+
+-------------
+agar package ka name direct denge to wo node ki directory me khojega
+agar package ka name ./ se denge to apne current directory me dudega

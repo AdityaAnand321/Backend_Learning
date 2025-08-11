@@ -1,0 +1,7 @@
+file ke liye fs module chahiye hota hai 
+
+fs.writeFileSync('path','text dal sakte hai');
+
+:::File ko read kaise kare 
+
+fs.readFilesSync('./contacts.txt","utf-8);
