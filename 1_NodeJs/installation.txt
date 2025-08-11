@@ -1,0 +1,8 @@
+even wala permanent hota hai 
+odd wala testing period me hota hai
+
+check version of node js node --version
+
+
+::::::::::::::::::
+har project banane se pahle npm init likhna hai 

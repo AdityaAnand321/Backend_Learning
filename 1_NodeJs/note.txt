@@ -1,0 +1,13 @@
+What is NodeJs?
+:-JavaScript Engine(V8) + Embedded with CPP to execute js outside browser
+It is a runtime environment for JavaScript
+
+Kyuki phle JavaScript browser ke bahar ny chalta tha 
+
+
+::to run write node and then file name in terminal 
+
+:: window objects will not available only core functionality available
+
+::::::::::::::::::
+har project banane se pahle npm init likhna hai 

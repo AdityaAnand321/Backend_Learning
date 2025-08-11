@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "youtube": "node hello.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdityaAnand321/Backend_Learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdityaAnand321/Backend_Learning/issues"
+  },
+  "homepage": "https://github.com/AdityaAnand321/Backend_Learning#readme",
+  "description": ""
+}

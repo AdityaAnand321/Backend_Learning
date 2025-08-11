@@ -1,0 +1,22 @@
+when we divide our code into smaller modules is called modular programming
+
+Agar doosra module use karna ho to usko 'require'keyword likh ke import karenge
+
+const math=require('file location');
+us function ko export bhi karna padta hai
+
+module.exports=add; ase kar sakte hai
+
+agar 2 bar module.exports likha hai to override kardega 
+
+to javascript objects ka use karenge
+
+aur destructing bhi karke import kar sakte hai 
+
+const{add,sub}=require('./math');
+
+3. ek aur tareeka hai 
+exports.add=(a,b)=>a+b;
+//ek tareeke ka arrow function hai
+
+module.exports ek hi bar use kar sakte hai 

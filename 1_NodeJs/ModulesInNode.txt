@@ -1,0 +1,2 @@
+when we divide our code into smaller modules is called modular programming
+
