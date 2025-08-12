@@ -1,0 +1,27 @@
+client makes request to server
+
+1.Event Queue:Sare requests event queue ke undar queue hoti hai 
+2.Event Loop:Uske bad event loop me request jati hai 
+            Event loop keeps a check ki koi request aayi ya ny
+            queue se request uthata hai FIFO form me
+
+            request 2 tareeke ke ho sakte hai Blocking Operation(Synchornous) and Non-Blocking-Operation(Asynchronous)
+
+            1.Agar non blocking hai to process kardega and send response to user
+            2.Blocking request hai to thread pole ke pass jaega
+
+3.Thread Pool: isme threads hote hai aur ye blocking operation karta hai 
+            Agar worker available hai to usko request assign kardega aur result bhej dega user ko
+            By default size: 4 (Maxm depends on machine based on cpu threads)
+Problem: Thread limited hote hai 
+        agar sare worker busy to wait karna padega jab free hoga worker tabhi next execution
+
+So it is always good to have non blocking operations
+
+
+---------------------------------------------
+
+jaise 5 lines ke code hai to blocking me ek ke bad ek execute hoga
+but non blocking me pahle bhi ho sakta hai agar beech wale me time lag rha hai to 
+
+agar computer ki information chahiye ho 

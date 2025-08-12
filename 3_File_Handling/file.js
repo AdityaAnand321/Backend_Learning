@@ -32,7 +32,8 @@ fs.unlinkSync('./copy.txt');
 
 fs.statt("./test.txt");
 
-//make directory
-fs.mkdirSync("my-docs");
+// //make directory
+// fs.mkdirSync("my-docs");
 
-fs.mkdirSync("my-docs/a/b",{recursive:true})
+// fs.mkdirSync("my-docs/a/b",{recursive:true})
+
