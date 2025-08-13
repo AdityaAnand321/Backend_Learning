@@ -1,0 +1,17 @@
+URL : Uniform Resource Locator
+
+http : less secure hota hai
+https: ye secure hota hai request incrypted hota hai 
+
+1.Protocol: set of rules that tells browser how to communicate
+
+http ko protocol bolte hai 
+
+2.baki ko domain bolte hai 
+
+url user friendly name hota hai ip ka
+
+3.phir last me path hota hai .com/ or .com/about
+
+4.query parameter: extra info ye question mark ke bad  hota hai
+
