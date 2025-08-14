@@ -1,0 +1,7 @@
+1.GET: when we want to get some data from server
+        by default browser ka get default method hota hai 
+
+2.POST: when we want to send data to server 
+
+3.PUT: server ke upar upload karna 
+3.Patch: existing entry ko jab change karna hoto
