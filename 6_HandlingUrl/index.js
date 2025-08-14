@@ -1,16 +1,38 @@
-const fs=require('fs');
-const http=require('http');
-const url=require('url');
+const http=require("http");
+const fs=require("fs");
+const url=require("url");
 
+
+// ye poora path ka details  bata deta hai 
+//like kaunsa aprt kya hai 
 const myServer=http.createServer((req,res)=>{
-    if(req.url==="favicon.ico")return res.end();
-    const log=`${Date.now()}; ${req.url}New Request Received\n`;
+    if(req.url==='/favicon.ico')
+        return res.end();
 
-        fs.appendFile("log.txt",log,(err,data)=>{
-            res.end("Hello from server again")
-        });
-        console.log("New Req Rec");
+    const req1=`${req.url}\n`;
+    const myUrl=url.parse(req.url,true);
+    console.log(myUrl);
+    
+    fs.appendFile("log.txt",req1,(err,data)=>{
+    switch(myUrl.pathname)
+    {
+    case '/':res.end("Home Page");
+    break;
+    case '/about': 
+    const username=myUrl.query.myname;
+    res.end(`hi , ${username}`);
+   // res.end("piyush garg");
+    break;
 
+    case '/search':
+        const search =myUrl.query.search_query;
+        res.end("here are your results for: "+search);
+        break;
+    default:
+        res.end("404");
+    }
     })
+ 
+})
 
-    myServer.listen(8000,()=>console.log("Everything OK"))
+myServer.listen(7000,()=>console.log("Everything OK"));
