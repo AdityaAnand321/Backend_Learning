@@ -39,7 +39,7 @@ fs.appendFile("log.txt",log,(err,data)=>{
     case '/' res.end("Home Page");
     break;
     case '/about'}: res.end("piyush garg")
-    })
+    })k
 
 
 */

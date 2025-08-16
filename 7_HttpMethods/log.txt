@@ -31,7 +31,7 @@ const myServer=http.createServer((req,res)=>{
     
     case 'signup':
         if(req.method==="Get")res.end("THis is signUP Form);
-        else if(req.method==="POST")res.end("Success");
+        else if(req.method==="POST")
     default:
         res.end("404");
     }
