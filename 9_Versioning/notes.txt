@@ -1,1 +1,29 @@
 //version: 
+
+4.18.2
+
+//3rd part -Minor Fixes(Optional Update)
+Agar chota mota cheez fix karta hai to ye update hota hai 
+
+//2nd Part: 18 ->ye Recommended Bug fix hai ya security update
+agar 4.19.2->matlb bug fix hua hai 
+
+//1st part : Major Release or Major or breaking update
+Agar isko update karenge to poorana wala code ny chalega 
+
+::agar particular version chahiye hota hai to likhte hai npm install express @version
+
+npm i express@
+
+""^"" : means compatible with version 
+        iska matlb hai jaise ^4 likha hai to update hamesha 5 ke pahle tak ka hoga 5 ny hoga 
+        update me
+
+        iska matlb hai automatic update hota hai but 4 update ny hoga 
+        agar ye na lagayenge to lock rahega update ny hoga 
+
+""~"": iska matlb hai recommended bhi change ny  hoga 
+        matllb 4.18 tak fix rahega sirf last bit change hoga 
+
+
+""latest"": ye likhenge express ke undar to direct latest version utha lega 
