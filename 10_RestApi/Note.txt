@@ -1,0 +1,13 @@
+Restfull Api: iske kuch rules hote hai 
+
+works on server client Architecture: 
+
+tells server is different and client is diff and both should not depend on each other.
+
+when client is browser then send html data
+bcz html is fast
+
+when client is other thing then send json file 
+
+2.Always respect all http methods 
+    : 
