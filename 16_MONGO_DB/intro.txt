@@ -1,1 +1,10 @@
-:
+Mongo Db is a database: 
+No Sql Document based 
+Works on BSON Format(Like json format)
+Best For Node Applications
+
+Isme collection hota hai table ke jagah
+
+collection ke undar documents hota hai
+
+Installation: 
